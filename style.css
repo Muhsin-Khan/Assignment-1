@@ -17,6 +17,8 @@ p {
 }
 .for-flex {
   display: flex;
+  width: auto;
+  text-align: left;
 }
 .first-part {
   width: 50%;
@@ -33,4 +35,51 @@ p {
   padding: 10px 20px;
   border-radius: 7px;
   font-weight: 700;
+}
+.my-mission-in-2022 {
+  font-size: 45px;
+  text-align: center;
+}
+span {
+  font-size: 35px;
+}
+.second-section {
+  display: flex;
+  width: auto;
+  text-align: left;
+  justify-content: center;
+}
+.second-part-1stbox {
+  width: 20%;
+  margin: 5% 0% 5% 10%;
+  padding: 20px;
+  background-color: rgba(175, 238, 238, 0.596);
+  border-radius: 20px;
+}
+.illus-1-style {
+  height: 20%;
+}
+.second-part-2ndbox {
+  width: 20%;
+  margin: 5%;
+  padding: 20px;
+  background-color: rgba(248, 198, 198, 0.534);
+  border-radius: 20px;
+}
+.second-part-3rdbox {
+  width: 20%;
+  margin: 5% 10% 5% 0%;
+  padding: 20px;
+  background-color: rgba(248, 232, 159, 0.534);
+  border-radius: 20px;
+}
+.second-part img {
+  width: 60%;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.text-part {
+  padding-right: 15%;
+  padding-top: 1%;
+  
 }
